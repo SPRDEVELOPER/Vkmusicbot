@@ -812,8 +812,8 @@ def format_time(seconds: float) -> str:
 def get_progress_bar_styled(elapsed: float, total: float, bar_length: int = 14) -> str:
     """
     Build a progress bar string in the style:
-      elapsed_time  <dashes>❄️<dashes>  total_time
-    For example: 0:30 —❄️———— 3:09
+      elapsed_time  <dashes>🦋<dashes>  total_time
+    For example: 0:30 —🦋———— 3:09
     """
     if total <= 0:
         return "Progress: N/A"
@@ -823,7 +823,7 @@ def get_progress_bar_styled(elapsed: float, total: float, bar_length: int = 14) 
         marker_index = bar_length - 1
     left = "━" * marker_index
     right = "─" * (bar_length - marker_index - 1)
-    bar = left + "❄️" + right
+    bar = left + "🦋" + right
     return f"{format_time(elapsed)} {bar} {format_time(total)}"
 
 

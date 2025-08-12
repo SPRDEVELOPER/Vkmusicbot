@@ -1,7 +1,7 @@
 services:
-  - name: frozen-music-bot
+  - name: vk music bot
     git:
-      repo: "https://github.com/prashantsahlot/frozenvcmusicbot"
+      repo: "https://github.com/SPRDEVELOPER/Vkmusicbot"
       branch: main
     dockerfile_path: Dockerfile
     routes:

@@ -124,7 +124,7 @@ COOLDOWN = 10
 chat_last_command = {}
 chat_pending_commands = {}
 QUEUE_LIMIT = 20
-MAX_DURATION_SECONDS = 900  
+MAX_DURATION_SECONDS = 1000000  
 LOCAL_VC_LIMIT = 10
 playback_mode = {}
 
@@ -316,8 +316,8 @@ async def fetch_youtube_link_backup(query):
     except Exception as e:
         raise Exception(f"Backup Search API error: {e}")
     
-BOT_NAME = os.environ.get("BOT_NAME", "Vk music")
-BOT_LINK = os.environ.get("BOT_LINK", "https://t.me/Vk_bommy_bot")
+BOT_NAME = os.environ.get("BOT_NAME", "COMRADE BOT")
+BOT_LINK = os.environ.get("BOT_LINK", "https://t.me/SPR_COMRADE_BOT")
 
 from pyrogram.errors import UserAlreadyParticipant, RPCError
 
@@ -559,7 +559,7 @@ async def play_handler(_, message: Message):
 
     # If replying to an audio/video message, handle local playback
     if message.reply_to_message and (message.reply_to_message.audio or message.reply_to_message.video):
-        processing_message = await message.reply("❄️")
+        processing_message = await message.reply("🦋")
 
         # Fetch fresh media reference and download
         orig = message.reply_to_message

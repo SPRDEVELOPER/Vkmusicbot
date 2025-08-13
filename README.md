@@ -1,10 +1,6 @@
 <h2 align="center">
-    ──「 ⛦🦋 Frozen Music 🦋⛦ 」──
+    ──「 ⛦🦋 Surya Music 🦋⛦ 」──
 </h2>
-
-<p align="center">
-  <img src="https://files.catbox.moe/836l2k.jpg">
-</p>
 <p align="center">
 <a href="https://github.com/kustbots//frozenvcmusicbot/stargazers"><img src="https://img.shields.io/github/stars/prashantsahlot/frozenvcmusicbot?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
 <a href="https://github.com/kustbots//frozenvcmusicbot/network/members"> <img src="https://img.shields.io/github/forks/prashantsahlot/frozenvcmusicbot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>

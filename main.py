@@ -361,7 +361,7 @@ def to_bold_unicode(text: str) -> str:
             bold_text += char
     return bold_text
 
-@bot.on_message(filters.command("start"))
+@bot.on_message(filters.command("/vk"))
 async def start_handler(_, message):
     user_id = message.from_user.id
     raw_name = message.from_user.first_name or ""
